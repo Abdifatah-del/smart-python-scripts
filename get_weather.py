@@ -2,7 +2,7 @@ import requests
 
 # Replace with your own API key from OpenWeatherMap
 api_key = 'Your_API_Key'
-stad = 'Stockholm'
+city = 'Stockholm'
 url = f'https://api.openweathermap.org/data/2.5/weather?q={stad}&units=metric&appid={api_key}&lang=sv'
 
 response = requests.get(url)
