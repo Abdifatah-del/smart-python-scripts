@@ -1,7 +1,7 @@
 import requests
 
-# Byt ut med din egen API-nyckel från OpenWeatherMap
-api_key = 'DIN_API_NYCKEL'
+# Replace with your own API key from OpenWeatherMap
+api_key = 'Your_API_Key'
 stad = 'Stockholm'
 url = f'https://api.openweathermap.org/data/2.5/weather?q={stad}&units=metric&appid={api_key}&lang=sv'
 
@@ -11,6 +11,6 @@ data = response.json()
 if data.get("main"):
     temp = data['main']['temp']
     beskrivning = data['weather'][0]['description']
-    print(f"🌤️ Vädret i {stad}: {beskrivning}, {temp}°C")
+    print(f"🌤️ The weather in {city}: {description}, {temp}°C")
 else:
-    print("❌ Kunde inte hämta vädret.")
+    print("❌ Could not retrieve the weather.")
