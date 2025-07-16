@@ -1,26 +1,19 @@
-# Smart Python Scripts 🐍
 
-Tre enkla men kraftfulla Python-skript som kan spara dig tid varje dag:
+Three simple yet powerful Python scripts that can save you time every day:
 
----
+1. rename_files.py
+Automatically rename all files in a folder – perfect for photos, invoices, or exported data.
 
-### 1. rename_files.py
-Byt namn på alla filer i en mapp automatiskt – perfekt för foton, fakturor eller exportdata.
+2. send_email.py
+Send an automated email using Python. Use a Gmail "app password" for added security.
 
----
+3. get_weather.py
+Fetch weather data from OpenWeatherMap and display the temperature and description.
 
-### 2. send_email.py
-Skicka ett automatiserat e-postmeddelande med Python. Använd ett "app-lösenord" från Gmail för ökad säkerhet.
+🔧 Tips
+Use pip install requests if you don’t already have the requests module installed.
 
----
+For scripts 2 & 3, you’ll need a Gmail app password and an OpenWeatherMap API key.
 
-### 3. get_weather.py
-Hämta väderinformation från OpenWeatherMap och visa temperatur och beskrivning.
+Good luck!
 
----
-
-### 🔧 Tips
-- Använd `pip install requests` om du inte har requests-modulen.
-- För skript 2 & 3 behöver du Gmail-app-lösenord respektive OpenWeatherMap API-nyckel.
-
-Lycka till!
