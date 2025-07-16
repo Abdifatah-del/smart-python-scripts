@@ -3,7 +3,7 @@ import os
 # Enter the folder path here
 folder_path = 'C:/Users/DittNamn/Documents/pictures'
 
-# Byt namn på alla filer i mappen
+# Rename all files in the folder
 for count, filename in enumerate(os.listdir(folder_path), start=1):
     file_ext = os.path.splitext(filename)[1]
     new_name = f"bild_{count}{file_ext}"
