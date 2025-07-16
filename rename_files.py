@@ -1,7 +1,7 @@
 import os
 
-# Ange mappens sökväg här
-folder_path = 'C:/Users/DittNamn/Documents/Bilder'
+# Enter the folder path here
+folder_path = 'C:/Users/DittNamn/Documents/pictures'
 
 # Byt namn på alla filer i mappen
 for count, filename in enumerate(os.listdir(folder_path), start=1):
@@ -11,4 +11,4 @@ for count, filename in enumerate(os.listdir(folder_path), start=1):
     dst = os.path.join(folder_path, new_name)
     os.rename(src, dst)
 
-print("✅ Alla filer har döpts om!")
+print("✅ All files have been renamed!")
